@@ -334,7 +334,7 @@ function App() {
       </section>
       <section>
         <div className="flex justify-center">
-          Want to test it? Just open an Issue &nbsp;<span className="underline text-blue-400"><a href="https://github.com/ashutoshdebug/yaplate-test.git">here</a></span>&nbsp; and see its magic!
+          Want to test it? Just open an Issue &nbsp;<span className="underline text-blue-400"><a href="https://github.com/ashutoshdebug/yaplate-test.git" target="_blank">here</a></span>&nbsp; and see its magic!
         </div>
       </section>
       <footer className="w-full mt-24 px-6 h-5">
