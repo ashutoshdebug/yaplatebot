@@ -70,7 +70,7 @@ function App() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center text font-bold lg:mb-5 mb-20">
+        <div className="flex items-center justify-center text font-bold lg:mb-5 mb-20 lg:text-xl text-sm">
           Want to see it in action? Scroll down
         </div>
       </section>
@@ -204,7 +204,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Summarize Default */}
             <div className="bg-[#111827] rounded-2xl p-6 shadow-xl border border-white/10">
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 flex-col lg:flex-row gap-5 lg:gap-0">
                 <h3 className="text-xl font-semibold text-blue-400">
                   @yaplate summarize
                 </h3>
@@ -220,7 +220,7 @@ function App() {
 
             {/* Summarize in language */}
             <div className="bg-[#111827] rounded-2xl p-6 shadow-xl border border-white/10">
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 flex-col lg:flex-row gap-5 lg:gap-0">
                 <h3 className="text-xl font-semibold text-blue-400">
                   @yaplate summarize in &lt;language_code&gt;
                 </h3>
@@ -236,7 +236,7 @@ function App() {
 
             {/* Translate */}
             <div className="bg-[#111827] rounded-2xl p-6 shadow-xl border border-white/10">
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 flex-col lg:flex-row gap-5 lg:gap-0">
                 <h3 className="text-xl font-semibold text-blue-400">
                   @yaplate translate this to &lt;language_code&gt;
                 </h3>
@@ -253,7 +253,7 @@ function App() {
 
             {/* Reply */}
             <div className="bg-[#111827] rounded-2xl p-6 shadow-xl border border-white/10">
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 flex-col lg:flex-row gap-5 lg:gap-0">
                 <h3 className="text-xl font-semibold text-blue-400">
                   @yaplate reply this in &lt;language_code&gt;
                 </h3>
@@ -333,13 +333,13 @@ function App() {
         </div>
       </section>
       <section>
-        <div className="flex justify-center">
-          Want to test it? Just open an Issue &nbsp;<span className="underline text-blue-400"><a href="https://github.com/ashutoshdebug/yaplate-test.git" target="_blank">here</a></span>&nbsp; and see its magic!
+        <div className="flex justify-center items-center flex-col text-sm lg:text-xl">
+          Want to test it? Just open an Issue &nbsp;<span className="underline text-blue-400"><a href="https://github.com/ashutoshdebug/yaplate-test.git" target="_blank">here</a></span>&nbsp;and see its magic!
         </div>
       </section>
       <footer className="w-full mt-24 px-6 h-5">
         <hr className="border-white/40" />
-        <div className="flex items-center justify-center text-xs">
+        <div className="flex items-center justify-center text-xs text-center">
           Made by Ashutosh Kumar Tiwari and powered by Lingo.dev
         </div>
       </footer>
